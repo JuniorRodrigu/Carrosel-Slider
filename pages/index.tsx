@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../components/Banner'
 import Produtor from '../components/produtor'
+import Produtor_2 from '../components/produtor 2'
+import Produtor_3 from '../components/produtor 3'
 import SearchInput from '../components/SearchInput'
 import styles from '../styles/Home.module.css'
 
@@ -44,9 +46,10 @@ const Home = () => {
           <Banner />
           <div className={styles.grid}>
                 <Produtor />
-                <Produtor />
-                <Produtor />
-                <Produtor />
+                <Produtor_2/>
+                <Produtor_3/>
+                <Produtor_3/>
+               
                
 
             </div>
